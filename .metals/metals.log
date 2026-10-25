@@ -78,3 +78,10 @@ Exception in thread "pool-5-thread-1" java.lang.InterruptedException
 2026.10.25 16:32:22 INFO  compiling functional-programming_41e103cfb2-test (1 scala source)[0m
 2026.10.25 16:32:22 INFO  time: compiled Functional-Programming_41e103cfb2 in 0.74s[0m
 2026.10.25 16:32:22 INFO  time: compiled Functional-Programming_41e103cfb2-test in 0.19s[0m
+Exception in thread "pool-9-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
