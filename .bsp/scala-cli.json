@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/muhtasim/.local/share/coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/home/muhtasim/Functional-Programming/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/muhtasim/Functional-Programming/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/muhtasim/Functional-Programming/.scala-build/ide-envs.json",
+    "/home/muhtasim/Functional-Programming"
+  ],
+  "version": "1.18.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
